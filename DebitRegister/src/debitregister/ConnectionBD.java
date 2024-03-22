@@ -8,7 +8,7 @@ public class ConnectionBD {
     
     public static Connection getConnection(){
         try {
-            Connection conn = DriverManager.getConnection("jdbc:postgresql://database-1.cc2qow3tse8e.us-east-1.rds.amazonaws.com:5432/postgres","postgres","flamengo971102");
+            Connection conn = DriverManager.getConnection("jdbc:postgresql://database-1.cc2qow3tse8e.us-east-1.rds.amazonaws.com:5432/postgres","postgres","senha");
             
             return conn;
         } catch (SQLException e) {
